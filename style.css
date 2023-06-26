@@ -3,3 +3,66 @@ body {
   height: 100%;
   margin: 0;
 }
+
+/* Update the header */
+header {
+  text-align: center;
+}
+
+/* Center the image */
+figure {
+  display: block;
+  margin-left:auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* Jazz up the navigation links */
+.navbar a {
+  display: inline-block;
+  padding: 0 10px;
+  background-color: grey;
+  text-align: center;
+}
+
+/* Update the image caption */
+.caption {
+  font-size: 12px;
+  text-align: center;
+}
+
+/* Update the text block */
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Make the #details section horizontal */
+#details {
+  display: flex;
+  padding: auto;
+  
+}
+
+#details > div {
+  flex: 1;
+  
+}
+
+/* Finishing touch for the bottom divs */
+#bottom-divs {
+  background-color: #ccc;
+  text-align: center;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 50px;
+  vertical-align: top;
+}
+
+/* Clearfix for the bottom row */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
